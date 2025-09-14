@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url(/img/back3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    padding: 30px;
+
+    width: 55vw;
+    border-radius: 32px;
+
+    background-color: rgba(178, 4, 30,24%);
+
+    position: relative;
+}
+
+.box-style {
+    background-color: rgba(254, 226, 150, 58%);
+    border-radius: 32px;
+    border: 3px #B2041E;
+    border-style: dashed;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* PRESENTATION */
+
+#presentation-box {
+    display: flex;
+    gap: 50px;
+    color: #FF425E;
+
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+#photo-profil {
+    width: 230px;
+    height: 100%;
+    border-radius: 32px;
+}
+
+#fraise-profil {
+    width: 340px;
+    position: absolute;
+    left: -20px;
+    top: -100px;
+}
+
+#pour-eux {
+    display: flex;
+    gap: 30px;
+}
+
+#for-us {
+    display: flex;
+    flex-direction: column;
+}
+
+#neko-others {
+    width: 40vw;
+}
+
