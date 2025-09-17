@@ -2,17 +2,33 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url(/img/back3.gif);
+    background-image: url(/img/back4.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 40%;
+    color: #FF425E;
+    font-family: "Inter", sans-serif;
+}
 
-    height: 100vh;
+h1, h3, h4{
+    color: #B2041E;
+    font-style: italic;
+}
+
+h1,h3 {
+    font-weight: 800;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 
     padding: 30px;
 
@@ -39,6 +55,11 @@ p {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #FF425E;
+}
+
 /* PRESENTATION */
 
 #presentation-box {
@@ -60,20 +81,105 @@ p {
     width: 340px;
     position: absolute;
     left: -20px;
-    top: -100px;
+    top: -70px;
 }
+
+/* PARTIE POUR EUX */
 
 #pour-eux {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 #for-us {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 #neko-others {
-    width: 40vw;
+    position: relative;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
+#neko-others h3{
+    position: absolute;
+    top: -30px;
+    left: 38%;
+}
+
+#chatbox {
+    height: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#links-box {
+    height: 510px;
+    width: 25%;
+    text-align: center;
+}
+
+#links-box li {
+    margin: 10px 0;
+}
+
+#links-box ul {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+
+/* PARTIE UPDATE */
+
+#updates {
+    height: 180px;
+    text-align: center;
+    position: relative;
+}
+
+#updates h3 {
+    position: absolute;
+    top: -30px;
+    left: 45%;
+}
+
+/* FIN */
+
+#footer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer img {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.img-deco {
+    position: absolute;
+}
+
+#tomodachi {
+    right: 230px;
+    bottom: -370px;
+}
+
+#glace {
+    bottom: -210px;
+    left: 280px;
+    width: 130px;
+}
+
+#yop {
+    top: 360px;
+    right: 300px;
+    width: 100px;
+}
