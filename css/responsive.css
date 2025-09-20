@@ -1,0 +1,146 @@
+@media (max-width: 1884px){
+    #tomodachi {
+    right: 310px;
+    bottom: 90px;
+}
+
+#glace {
+    bottom: 230px;
+    left: 360px;
+    width: 130px;
+}
+
+#yop {
+    top: 280px;
+    right: 370px;
+    width: 120px;
+}
+}
+
+@media (max-width: 1650px){
+    #tomodachi {
+    right: 240px;
+    bottom: 90px;
+}
+
+#glace {
+    bottom: 230px;
+    left: 300px;
+    width: 130px;
+}
+
+#yop {
+    top: 280px;
+    right: 310px;
+    width: 120px;
+}
+}
+
+@media (max-width: 1450px){
+    #tomodachi {
+    right: 230px;
+    bottom: 90px;
+    width: 190px;
+}
+
+#glace {
+    bottom: 230px;
+    left: 270px;
+    width: 100px;
+}
+
+#yop {
+    top: 280px;
+    right: 250px;
+    width: 120px;
+}
+}
+
+@media (max-width: 1222px){
+
+    #photo-profil{
+        width: 200px;
+    }
+
+    #fraise-profil{
+        width: 300px;
+        top: -10px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #tomodachi {
+    right: 190px;
+    bottom: 120px;
+    width: 170px;
+}
+
+#glace {
+    bottom: 240px;
+    left: 240px;
+    width: 90px;
+}
+
+#yop {
+    top: 380px;
+    right: 240px;
+    width: 90px;
+}
+}
+
+@media (max-width: 1055px){
+    #presentation-box {
+    display: flex;
+    gap: 50px;
+    color: #FF425E;
+
+    margin-bottom: 40px;
+    height: 16vh;
+
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+     #fraise-profil{
+        width: 280px;
+    }
+
+        #tomodachi {
+            right: 170px;
+            bottom: 120px;
+        }
+
+        #glace {
+            bottom: 240px;
+            left: 200px;
+            width: 90px;
+        }
+
+        #yop {
+            top: 270px;
+            right: 200px;
+            width: 90px;
+        }
+
+}
+
+@media (max-width: 940px){
+    main {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 565px){
+    #tomodachi, #yop, #glace, #fraise-profil {
+        display: none;
+    }
+ 
+}
